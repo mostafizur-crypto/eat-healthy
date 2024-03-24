@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 35px;
+  color: rgb(68, 67, 67);
+}
+header {
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+.header {
+  display: flex;
+  background-image: linear-gradient(orange, tomato);
+  padding: 5px;
+  height: 50px;
+}
+
+.left {
+  width: 50%;
+}
+
+nav {
+  display: flex;
+  gap: 5rem;
+}
+.right nav a {
+  text-decoration: none;
+  font-size: 23px;
+  color: rgb(83, 80, 80);
+}
+.right nav a:hover {
+  /* letter-spacing: 0.2rem; */
+  /* background-color: white; */
+  border-radius: 5px;
+  border-bottom: white solid;
+  border-top: black solid;
+  /* padding: 3px; */
+}
+
+main {
+  position: absolute;
+  margin-top: 50px;
+}
+
+.orange-color {
+  color: rgb(247, 166, 5);
+}
+
+.flexible-container {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 150px;
+  padding: 20px;
+  margin-left: 70px;
+}
+
+.half-width {
+  width: 50%;
+  padding-left: 2%;
+}
+.half-width img {
+  margin-left: 80px;
+  width: 90%;
+}
+.half-width h1 {
+  /* position: absolute; */
+  color: gray;
+  margin-top: 70px;
+  font-size: 60px;
+}
+.button {
+  position: absolute;
+  margin-top: 40px;
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 10px 40px;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.mid-banner {
+  background-image: url(./images/shapes/7.png);
+  background-repeat: no-repeat;
+  margin: 0;
+}
+.mid-banner .half-width {
+  padding: 0;
+  margin-left: 10px;
+}
+.mid-banner .half-width img {
+  margin-top: 90px;
+  width: 70%;
+  height: 60%;
+}
+.mid-banner .half-width .button {
+  margin-top: 50px;
+}
+.mid-banner .half-width p {
+  margin-top: 70px;
+  width: 460px;
+}
